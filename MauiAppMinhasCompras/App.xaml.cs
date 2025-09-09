@@ -5,6 +5,13 @@
         public App()
         {
             InitializeComponent();
+
+            //MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ListaProduto());
+
+
+
+
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
